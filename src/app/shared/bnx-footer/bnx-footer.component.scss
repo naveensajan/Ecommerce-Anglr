@@ -1,0 +1,59 @@
+@import "../../../assets/bnx-fonts/fonts.scss";
+// @import "../../../assets/scss/mixin.scss";
+
+.bnx-copyright {
+    background: #080000;
+}
+
+.copyright {
+
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: $font;
+
+
+    max-width: 1440px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+    &__first {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    &__img {
+        padding-top: 20px;
+
+    }
+
+    &__p {
+        color: white;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.6;
+        padding-top: 20px;
+
+    }
+
+}
+

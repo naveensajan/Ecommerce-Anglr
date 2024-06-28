@@ -1,0 +1,395 @@
+<!-- Navbar -->
+
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i style="font-size: 40px; padding-left: 20px; color: white;" class="fas fa-shipping-fast"></i>
+      <strong style="font-size: 30px; color: white; padding-left: 10px;">Fast Track</strong>
+    </a>
+    <div class="ml-auto">
+      <!-- Signup Button -->
+      <button type="button" class="btn btn-outline-light ms-3" data-bs-toggle="modal" data-bs-target="#signupModal">
+        <i class="fa fa-user me-2"></i>SignUp
+      </button>
+      <!-- Login Button -->
+      <button type="button" class="btn btn-outline-light ms-3" data-bs-toggle="modal" data-bs-target="#loginModal">
+        <i class="fa fa-sign-in-alt me-2"></i>Login
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Signup Modal -->
+<div class="modal" id="signupModal" tabindex="-1" role="dialog">
+  <!-- Signup Modal content -->
+  <!-- Modal Body -->
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 class="modal-title">Signup</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <app-bnx-signup></app-bnx-signup>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Login Modal -->
+<div class="modal" id="loginModal" tabindex="-1" role="dialog">
+  <!-- Login Modal content -->
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <app-bnx-login></app-bnx-login>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- dashboard navbar ends  -->
+
+
+
+
+<!--White Area-->
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <h3>Travel Essential Picks</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolore eveniet doloribus, hic itaque
+        debitis ab ad. Laborum, quidem consectetur, ratione nostrum molestias quasi ipsum, quibusdam
+        doloribus neque debitis voluptate!</p>
+      <a href="#" class="btn btn-dark" (click)="showLoginAlert()">Shop Now</a>
+    </div>
+    <div class="column">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/002/478/302/original/sale-electronics-banner-background-free-vector.jpg"
+        alt="Digital Marketing" class="img-fluid">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/27f1ce107056811.5f9e69654c37d.jpg"
+        alt="Another Image" class="img-fluid">
+    </div>
+    <div class="column">
+      <h3>Exclusive Winter Collection</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus incidunt porro nulla rerum
+        debitis voluptate quia repellendus repudiandae obcaecati ullam quas, nesciunt vero enim mollitia, a
+        in nemo odit inventore.</p>
+      <a href="#" class="btn btn-dark" (click)="showLoginAlert()">Shop Now</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <h3>Home Appliances</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum laboriosam voluptatum sapiente
+        ab illum ducimus debitis voluptas, tempora ratione voluptatibus excepturi modi ea necessitatibus
+        repudiandae molestias. Cupiditate, incidunt velit.</p>
+      <a href="#" class="btn btn-dark" (click)="showLoginAlert()">Shop Now</a>
+    </div>
+    <div class="column">
+      <img src="https://i.pinimg.com/736x/f0/f9/e4/f0f9e45724771f16745ad3f6f640d3ce.jpg" alt="Digital Marketing"
+        class="img-fluid">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="https://trendraja.in/wp-content/uploads/2019/02/Flipkart-Fashion-Days.jpg" alt="Another Image"
+        class="img-fluid">
+    </div>
+    <div class="column">
+      <h3>Fashion Top Deals</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, unde maxime ipsa, iste culpa iure
+        fugit facilis enim quis voluptate veniam maiores vero qui sequi exercitationem placeat dolor,
+        similique nisi?</p>
+      <a href="#" class="btn btn-dark" (click)="showLoginAlert()">Shop Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!--4 Card Session-->
+<div class="be-fourcard">
+  <div class="row">
+    <div class="col">
+      <div class="card text-center mb-3" style="width: 16rem;">
+        <div class="be-fourcard__body">
+          <a><i class="fa-solid fas fa-laptop fa-2xl" style="color: black;"></i></a>
+          <h5 class="card-title">Laptops</h5>
+          <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-center mb-3" style="width: 16rem;">
+        <div class="be-fourcard__body">
+          <a><i class="fa-solid fas fa-stopwatch fa-2xl" style="color: black;"></i></a>
+          <h5 class="card-title">Smart Watches</h5>
+          <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-center mb-3" style="width: 16rem;">
+        <div class="be-fourcard__body">
+          <a><i class="fa-solid fas fa-headphones fa-2xl" style="color: black;"></i></a>
+          <h5 class="card-title">HeadPhones</h5>
+          <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-center mb-3" style="width: 16rem;">
+        <div class="be-fourcard__body">
+          <a><i class="fa-solid fas fa-desktop fa-2xl" style="color: black; "></i></a>
+          <h5 class="card-title">Computer Accessories</h5>
+          <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="be-popularcourses">
+  <div class="be-popularcourses__heading">
+    <h5><i class="fa fa-grip-lines fa-2xl" style="color: black;"></i>Trending<i class="fa fa-grip-lines fa-2xl"
+        style="color: black;"></i></h5>
+    <h2>Popular Searches</h2>
+  </div>
+
+  <div class="be-popularcourses__pricecards">
+    <div class="row side-margin">
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/37340/promotional-products-promotional-items-promo-gifts-promo-items.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="card-img-top" alt="...">
+          <div class="be-popularcourses__body">
+            <h4 class="card-text"><b>$149.99</b></h4>
+            <div class="btn-group">
+              <!-- Add a 5-star rating component here -->
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="card-text">(123)</span>
+            </div>
+            <p class="card-text mb-4"><b> ELECTRONICS & MOBILE PHONES</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/11924085/pexels-photo-11924085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="card-img-top" alt="...">
+          <div class="be-popularcourses__body">
+            <h4 class="card-text"><b>$199.99</b></h4>
+            <div class="btn-group">
+              <!-- Add a 5-star rating component here -->
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="card-text">(152)</span>
+            </div>
+            <p class="card-text mb-4"><b> BEAUTY & MAKEUP </b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/5717892/pexels-photo-5717892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="card-img-top" alt="...">
+          <div class="be-popularcourses__body">
+            <h4 class="card-text"><b>$399.99</b></h4>
+            <div class="btn-group">
+              <!-- Add a 5-star rating component here -->
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="text-warning">&#9733;</span>
+              <span class="card-text">(267)</span>
+            </div>
+            <p class="card-text mb-4"> <b> CLOTHING,JEWELLERY & BAGS</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--About Us-->
+<div class="be-aboutus">
+  <div class="card mb-12" style="max-width: 1200px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://m.media-amazon.com/images/I/61gwHqRcIDL._AC_UL480_QL65_.jpg" class="img-fluid rounded-start"
+          alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h6>Customer Service<i class="fa fa-grip-lines fa-2xl" style="color: black;"></i></h6>
+          <h5 class="card-title">Welcome to Fast Track</h5>
+          <p class="text">Tempor erat elitr rebum at clita.Diam dolor diam ipsum sit.Alique diam amet
+            diam
+            et eos.Clita erat ipsum et lorem et sit</p>
+          <p class="text">Tempor erat elitr rebum at clita.Diam dolor diam ipsum sit.Alique diam amet
+            diam
+            et eos.Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo justo magna dolor
+            eratamet.</p>
+          <div class="row gy-2 gx-4 mb-4">
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Manage Prime</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Payment Settings
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Account Settings</p>
+            </div>
+
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Manage Address</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Return & Refunds
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Digital Service and Device Support</p>
+            </div>
+          </div>
+          <a href="#" class=" be-aboutus__btn btn-btn-primary py-3 px-5 mt-2 ">Contact Us</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<div class="be-footer">
+  <div class="row">
+    <div class="be-footer__Links col-md-3">
+      <ul>
+
+        <p>About Us</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Condition</p>
+        <p>FAQs & Help</p>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul style="list-style:none">
+        <h4>Contact</h4>
+        <li><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</li>
+        <li><i class="fas fa-phone"></i> +012 34567890</li>
+        <li><i class="fas fa-envelope"></i> info@example.com</li>
+        <i class="fab fa-twitter fa-lg"></i>
+        <i class="fab fa-facebook fa-lg"></i>
+        <i class="fab fa-youtube fa-lg"></i>
+        <i class="fab fa-linkedin fa-lg"></i>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <h4>Gallery</h4>
+      <div class="be-footer__gallery">
+        <div class="be-footer__galleryitem">
+          <img
+            src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Photo 1">
+        </div>
+        <div class="be-footer__galleryitem">
+          <img
+            src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Photo 2">
+        </div>
+        <div class="be-footer__galleryitem">
+          <img
+            src="https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Photo 3">
+        </div>
+        <div class="be-footer__galleryitem">
+          <img
+            src="https://images.pexels.com/photos/335257/pexels-photo-335257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Photo 4">
+        </div>
+        <div class="be-footer__galleryitem">
+          <img
+            src="https://images.pexels.com/photos/5650026/pexels-photo-5650026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Photo 5">
+        </div>
+        <div class="be-footer__galleryitem">
+          <img
+            src="https://images.pexels.com/photos/5650050/pexels-photo-5650050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Photo 6">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <h4>NewsLetter</h4>
+      <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--CopyRight-->
+<div class="copyright">
+  @Fast Track | ALL Right Reserved | Designed by @Naveen Sajan.
+</div>

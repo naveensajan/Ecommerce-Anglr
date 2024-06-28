@@ -1,0 +1,310 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Samsung led TV",
+      "description": "Samsung led tv with 5 gb ram and led display",
+      "price": 1000.99,
+      "category": "electronics",
+      "image": "https://www.intex.in/cdn/shop/products/1_9b8014ad-124e-4742-a628-9a4c4affe617.jpg?v=1648711109"
+    },
+    {
+      "id": "2",
+      "title": "Rayban Sunglass",
+      "description": "Sunglass with extra film",
+      "price": 20.99,
+      "category": "fashion",
+      "image": "https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000002854715_02-2100.jpg"
+    },
+    {
+      "id": "3",
+      "title": "LG 2 door Fridge",
+      "description": "2 door fridge with magic door   ",
+      "price": 20.99,
+      "category": "electronics",
+      "image": "https://www.cnet.com/a/img/resize/2d2e0487bdd32b0892ba5538b1b1219ba72f5be0/hub/2016/10/27/a11c03cc-bc86-427c-b200-fa5c9f4e2f20/lginstaviewproductphotos-8.jpg?auto=webp&width=1200"
+    },
+    {
+      "id": "4",
+      "title": "Men Chain Pendants",
+      "description": "Lockets  for boys",
+      "price": 20.99,
+      "category": "jewelery",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTszkxXFcCk6DTyOMEGlwp28U1QLskJMj0Y_LUFy-SQ9xWx5a2Z-dADjg_xkzCMMFqxiB8KI1hQ-qPkazd4oQP9YyDykBvA&usqp=CAE"
+    },
+    {
+      "id": "5",
+      "title": "Iphone 15",
+      "description": "iphone 15 128Gb",
+      "price": 20.99,
+      "category": "mobiles",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-15-128GB-Black-493839309-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzODMzNnxpbWFnZS9qcGVnfGltYWdlcy9oNTgvaDg1LzEwMDUxODc2NzQ5MzQyLmpwZ3wwNTJkMzIwZGI3MzliNTI5MjJkOWQ1MWVkNmE1YzVlZjM0ZTk5MGNmNWRhYTNmZTJkNzUxOWNjZTg4YmQxZjZi"
+    },
+    {
+      "id": "6",
+      "title": "1 seater recliner sofa",
+      "description": "Nilkamal Sierra Velvet Fabric Manual Recliner",
+      "price": 20.99,
+      "category": "Furniture",
+      "image": "https://m.media-amazon.com/images/I/71b+XaCc8SL._SX679_.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Marble Top Dining Table",
+      "description": "PVD Coated SS Base and Leatherette Chairs - 4/6/8 seater set ",
+      "price": 89995,
+      "category": "Furniture",
+      "image": "https://www.createspaces.in/backend/assets/uploads/products/products20231007021026.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Electric  Kids Bike ",
+      "description": "Hand Race, Music, Training Wheels and Led Lights",
+      "price": 13000,
+      "category": "Bikes",
+      "image": "https://m.media-amazon.com/images/I/51UAXyMWzKL._SX679_.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Storio Toy Octopus",
+      "description": "Octopus Soft Toy for Kids -18cm",
+      "price": 141,
+      "category": "Toys",
+      "image": "https://m.media-amazon.com/images/I/517tM2o269L._SX679_.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Monster Truck ",
+      "description": "Push and Go Friction Powered Car Toys",
+      "price": 129,
+      "category": "Toys",
+      "image": "https://m.media-amazon.com/images/I/51i70GWsOuL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Washing Machine",
+      "description": "Fully-Automatic Front Load Washing Machine",
+      "price": 28990,
+      "category": "Appliances",
+      "image": "https://m.media-amazon.com/images/I/71msFUl565L._SX679_.jpg"
+    },
+    {
+      "id": "12",
+      "title": "pTron Earbuds ,headphones",
+      "description": "Playtime, 13mm Drivers, Bluetooth 5.3 Wireless Headphone,",
+      "price": 799,
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/310WnnJlnfL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Lunar's Bingo - 48 L Laptop bag",
+      "price": 109.95,
+      "description": "Backpack Water Resistant - Fits Up to 15.6 Inch Laptop Notebook with 1 Year Warranty",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/71lXgPnZjvL._SX679_.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Men's Short Sleeve",
+      "price": 299,
+      "description": "Round Neck, Oversized Longline Drop Shoulder, Very Trendy Printed, Boho Style T-Shirt",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/71cQVQcdp6L._SY879_.jpg"
+    },
+    {
+      "id": "15",
+      "title": "LEOTUDE CASUAL JACKET",
+      "price": 55.99,
+      "description": "Men's Regular Fit Loopknit Bomber Jacket (Color Maroon)",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/61xcqiJNSWL._SX679_.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Lymio Men T-Shirt",
+      "price": 15.99,
+      "description": "T-Shirt for Men || Printed T Shirt || Round Neck T-Shirt (NASA)",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/71y4BXxLJHL._SX679_.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Design Fancy Pearl ",
+      "price": 695,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelery",
+      "image": "https://m.media-amazon.com/images/I/81nHiyg-XTL._SY695_.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Stainless Steel Locket ",
+      "price": 168,
+      "description": "okos Men's Jewellery 3D Cuboid Vertical Bar/Stick Stainless Steel Locket Pendant Necklace for Boys",
+      "category": "jewelery",
+      "image": "https://m.media-amazon.com/images/I/51QCXW-lhxL._SY695_.jpg"
+    },
+    {
+      "id": "19",
+      "title": "White Gold Plated Princess",
+      "price": 9.99,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+    },
+    {
+      "id": "20",
+      "title": "Silver Ring For Boys ",
+      "price": 10.99,
+      "description": "Fashion Frill Mens Jewellery Silver Ring For Boys Stainless Steel Adjustable Finger Rings for Men and Boys Girls Women Accessories Jewellery for Men Anniversary",
+      "category": "jewelery",
+      "image": "https://m.media-amazon.com/images/I/81v0WnOn7mL._SY695_.jpg"
+    },
+    {
+      "id": "21",
+      "title": "Acer Predator Helios Neo 16 ",
+      "price": 64,
+      "description": "Gaming Laptop 13th Gen Intel Core i7 Processor (16 GB/1 TB SSD/Windows 11 Home/NVIDIA ® GeForce RTX ¢ 4050) PHN16-71, ",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81E2srXhKVL._SX679_.jpg"
+    },
+    {
+      "id": "22",
+      "title": "Microsoft New Surface Pro9",
+      "price": 109,
+      "description": "128GB Platinum with Bluetooth,Wi-Fi, NFC Windows 11 Home, 365 Family 30-Day Trial & Xbox Game Pass Ultimate 30-Day Trial",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/51Yn1v7blLL._SX679_.jpg"
+    },
+    {
+      "id": "23",
+      "title": "CHIST Budget Gaming PC Core i5 ",
+      "price": 109,
+      "description": "2400-8GB RAM - 256GB NVMe SSD-500GB HDD - GT 730 4GB Graphic Card, Gaming Cabinet RGB Fan Light",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/610jD1S4bOL._SX679_.jpg"
+    },
+    {
+      "id": "24",
+      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "price": 114,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+    },
+    {
+      "id": "25",
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+    },
+    {
+      "id": "26",
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
+      "price": 999.99,
+      "description": "49-INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27-inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra-fast response time work to eliminate motion blur, ghosting, and reduce input lag ENHANCED ERGONOMICS with an adjustable stand and VESA compatibility 3-YEAR BUSINESS WARRANTY with extended warranties available for purchase",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+    },
+    {
+      "id": "27",
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 56.99,
+      "description": "100% Polyester,Zipper closure Waterproof windproof snow jacket, also can fights bad rainy or misty weather, Keep your body always dry and comfortable when you are outside. Adjustable cuffs help to seal and keep warm, and the inner wear-resistant soft shell is highly wind-resistant. Professional water repellent coated, fluff lining and durable fabric guarantees the best heat retention, Relaxed-fit style with quick-dry material.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+    },
+    {
+      "id": "28",
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 29.95,
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) Only Puff Sleeve Design Waterproof Windproof and snow jacket, also can fights bad rainy or misty weather, Keep your body always dry and comfortable when you are outside.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+    },
+    {
+      "id": "29",
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 39.99,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+    },
+    {
+      "id": "30",
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 9.85,
+      "description": "95% Rayon 5% Spandex. Hand wash with cold water, do not bleach, hang or line dry Please check the size chart below to ensure your order / Color Disclaimer : Due to monitor settings, monitor pixel definitions, we cannot guarantee that the color you see on your screen as an exact color of the product. We strive to make our colors as accurate as possible. however, colors are approximations of actual colors.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "4190",
+      "username": "melvin",
+      "email": "melvin@gmail.com",
+      "phone": "9999999999",
+      "address": "ajsfgkbafkasfiasdfian",
+      "password": "melvin123@"
+    },
+    {
+      "id": "867e",
+      "username": "melvin",
+      "email": "melvin@gmail.com",
+      "phone": "987654321",
+      "address": "ajhasbj house akbskhabskh",
+      "password": "melvin@123"
+    },
+    {
+      "id": "95ae",
+      "username": "sam",
+      "email": "sam@gmail.com",
+      "phone": "45345345",
+      "address": "dgsdgsdg",
+      "password": "sam@123@"
+    },
+    {
+      "id": "2fa7",
+      "username": "alex",
+      "email": "alex@gmail.com",
+      "phone": "23768724",
+      "address": "sdgsdgsdg",
+      "password": "alex@123"
+    },
+    {
+      "id": "ba1c",
+      "username": "tom",
+      "email": "tom@gmail.com",
+      "phone": "985667885",
+      "address": "afasfa",
+      "password": "tom@123"
+    },
+    {
+      "id": "7716",
+      "username": "manu",
+      "email": "manu@gmail.com",
+      "phone": "9207008545",
+      "address": "kochi,edapally",
+      "password": "manu@123"
+    },
+    {
+      "id": "9db5",
+      "username": "basil",
+      "email": "basil@gmail.com",
+      "phone": "9207008545",
+      "address": "dsdsdf",
+      "password": "basil123@"
+    },
+    {
+      "id": "bf72",
+      "username": "Naveen",
+      "email": "naveensajan@gmail.com",
+      "phone": "9846568245",
+      "address": "Pala",
+      "password": "naveen1234"
+    }
+  ]
+}

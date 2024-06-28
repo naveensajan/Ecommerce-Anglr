@@ -1,0 +1,45 @@
+<!-- bnx-navbar.component.html -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i style="font-size: 40px; padding-left: 20px; color: white;" class="fas fa-shipping-fast"></i>
+                <strong style="font-size: 30px; color: white; padding-left: 10px;">Fast Track</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse search" id="navbarNav">
+                <form class="d-flex ms-auto mb-2 mb-lg-0 mx-auto">
+                    <input type="text" class="form-control me-2" [(ngModel)]="searchTerm" (keyup)="search($event)"
+                        placeholder="Search products" aria-label="Search">
+                    <button class="btn btn-outline-light" type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+
+                
+
+                <div class="ml-auto">
+
+                    <button routerLink="cart" class="btn btn-dark ms-auto">
+                        <i style="font-size: 30px;" class="fas fa-shopping-cart"></i>
+                        <span class="badge bg-danger">{{ totalItem }}</span>
+                    </button>
+
+                    <!-- Logout Button -->
+                    <button type="button" class="btn btn-outline-light ms-3" (click)="logout()">
+                        <i class="fa fa-sign-out-alt me-2"></i>Logout
+                    </button>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+</header>

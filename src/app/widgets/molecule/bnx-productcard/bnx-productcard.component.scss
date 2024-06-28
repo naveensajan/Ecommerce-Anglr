@@ -1,0 +1,68 @@
+@import "../../../../assets/scss/mixin.scss";
+
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+    max-width: 1440px;
+
+    margin-top: 60px;
+}
+
+.item img {
+    width: 64px;
+    transition: 0.3s ease-in-out;
+}
+
+.item img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+.item {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.item a:hover {
+    color: blue;
+}
+
+
+
+.card {
+    padding: 10px;
+    margin: 40px;
+    // border: 2px solid green;
+
+}
+
+// .productcard{
+//      border: 2px solid rgb(43, 34, 96);  
+
+// }
+
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    padding-left: 15px;
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+@include mobile {
+    .card-top {
+        display: none;
+    }
+}

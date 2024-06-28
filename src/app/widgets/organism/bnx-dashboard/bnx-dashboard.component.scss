@@ -1,0 +1,350 @@
+.navbar{
+    margin-bottom: 40px;
+    height: 70px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.column {
+    flex: 0 0 calc(50% - 10px);
+    padding: 10px;
+}
+
+.container a {
+    border-radius: 0;
+    padding: 6px 34px;
+   
+}
+.container{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+.row {
+    display: flex;
+}
+
+.row .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 70vh;
+    margin-top: 10px;
+}
+
+.button {
+    float: left;
+}
+
+.btnnow {
+    background-color: #ffffff;
+    color: black;
+}
+
+.btnnow:hover {
+    background-color: #06BBCC;
+    color: white;
+}
+
+.btnmore:hover {
+    background-color: white;
+    color: black;
+}
+
+.side-margin {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.text-primary {
+    color: #06BBCC !important;
+}
+
+.nav-bar {
+    background-color: #ffffff;
+}
+
+.nav-join-btn {
+    height: 9vh;
+    /* width: 27vh; */
+}
+
+.nav-bar {
+    padding: 0px;
+}
+
+.btnmore {
+    background: #06BBCC;
+    color: white;
+}
+
+.btnnow {
+    background: white;
+    color: black;
+   
+}
+
+
+.home-btn {
+    display: inline;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 25vh;
+    font-size: 4vh;
+    cursor: pointer;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.column .arrow1 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: inline;
+    padding: 3px;
+    border: 2px solid rgb(255, 253, 253);
+}
+
+.column .arrow2 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: inline;
+    padding: 3px;
+    border: 2px solid rgb(255, 253, 253);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 4 Card Session */
+.be-fourcard .row {
+   
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+   
+}
+
+
+
+.be-fourcard__body i {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.be-fourcard p {
+    color: black;
+    padding-bottom: 30px;
+}
+
+.be-fourcard__body {
+   
+   
+    background-color: rgb(210, 209, 209);
+   
+    
+}
+
+
+
+
+/* About Us*/
+.be-aboutus {
+    margin-top: 30px;
+    margin-left:  auto ;
+    margin-right: auto;
+    max-height: 80vh;
+    max-width: 1440px;
+}
+
+.be-aboutus p {
+    color: black
+}
+
+.be-aboutus h6 {
+    color: black;
+}
+
+.be-aboutus i {
+    margin-left: 20px;
+}
+
+.be-aboutus img {
+    height: auto;
+}
+
+.be-aboutus .col {
+    margin-bottom: 30px;
+}
+
+.be-aboutus a {
+    background-color: black;
+    color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.be-aboutus .fa-arrow-right {
+    color: black;
+}
+
+.be-aboutus__btn:hover {
+    background-color: #bd9292;
+    color: black;
+}
+
+
+
+
+/*Popular courses*/
+.be-popularcourses{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.be-popularcourses__heading {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.be-popularcourses h5 {
+    color: black;
+    font-size: 1.25rem;
+}
+
+.be-popularcourses__body .btn-group {
+    align-items: center;
+}
+
+.be-popularcourses .card-text {
+    text-align: center;
+}
+
+.be-popularcourses__body {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+/* Footer*/
+.be-footer {
+    background: linear-gradient(72deg, #1f1a1a 9.81%, #050404 50.72%, #1f2d3d 93.38%);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 20px 30px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.be-footer__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.be-footer__galleryitem img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+
+
+/*Copyright*/
+.copyright {
+    background: linear-gradient(72deg, #322d2d 9.81%, #050404 50.72%, #1a242f 93.38%);
+    color: white;
+    margin-bottom: 2px;
+    padding: 20px 30px;
+    text-align: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    #first-sec h6 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #first-sec h1 {
+        font-size: 36px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    #first-sec p {
+        margin-left: 20px;
+    }
+
+   
+    .btnmore,
+    .btnnow {
+        display: block;
+        margin: 10px auto;
+    }
+
+   
+    .arrow1,
+    .arrow2 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:400px){
+
+}

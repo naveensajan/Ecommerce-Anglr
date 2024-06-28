@@ -1,0 +1,56 @@
+// @import "../../../../assets/scss/mixin.scss";
+@import "../../../../assets/bnx-fonts/fonts.scss";
+
+.footer {
+    background: linear-gradient(72deg, #291e19 9.81%, #1f1515 50.72%, #1a242f 93.38%);
+    color: #FFF;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: $font;
+
+    &__row {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    &__img {
+        padding-bottom: 20px;
+    }
+
+    &__p {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__indus {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+
+}
+
+
+// @include mobile {
+//     .footer {
+//         text-align: center;
+//         padding-top: 150px;
+//     }
+// }
+
+
+
+// @include tablet {
+
+//     .footer {
+//         text-align: center;
+//     }
+// }

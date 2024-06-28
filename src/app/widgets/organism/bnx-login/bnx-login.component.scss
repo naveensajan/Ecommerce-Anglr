@@ -1,0 +1,21 @@
+/* bnx-login.component.scss */
+
+/* Container styles */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  /* Form styles */
+  .login-form {
+    width: 1000px; /* Set width of the form */
+  }
+  
+  /* Button styles */
+  .login-button {
+    margin-top: 20px; /* Add margin to separate button from form */
+  }
+  
